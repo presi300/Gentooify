@@ -1,0 +1,43 @@
+>What is Gentooify?
+
+ Gentooify is a simple script that creates a fully 
+ functional Gentoo GNU/Linux installation within your 
+ current Linux installation, using the 
+ stage 3 rootfs tarball and chroot.
+
+>Why would that be useful?
+
+There are many possible uses for this script:
+-Using Gentoo's genkernel to generate custom kernels with one command
+-Using gentoo's eselect to control things like the java version (within the chroot)
+-Flexing with the Gentoo neofetch
+ And more...
+
+>How do i start Gentooify after the installation script is finished?
+
+-Type Gentooify in the terminal and enter your root password
+
+>Will this erase any files on my system?
+
+-No, this script shouldn't erase any files
+
+>Where do i find the Gentooify chroot files?
+
+-They should be in /home/Gentooify
+
+>Where can i find the config file?
+
+>It should be in .config/Gentooify
+
+>How do i report bugs?
+
+-Report bugs on the github page of Gentooify
+
+>Is Gentooify distro dependant?
+
+-Gentooify should work with every distro, if it doesn't work 
+ with your distro, make sure to report that as a bug
+
+
+
+
